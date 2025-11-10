@@ -12,7 +12,7 @@ Research and Development in AI and Automation
 
 ---
 
-## 🎯 Overview
+## Overview
 
 Φ Forge is a production-ready, quantum-resistant password manager that implements **Pure PHI cryptography**—a novel encryption system based on golden ratio mathematics (φ = 1.618...). Unlike traditional password managers that rely on AES or RSA, Φ Forge uses custom-built primitives designed to resist both classical and quantum computing attacks.
 
@@ -25,9 +25,9 @@ Research and Development in AI and Automation
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔐 Security Architecture
+### Security Architecture
 
 - **4-Layer Protection**
   - RAM obfuscation (master password never touches disk)
@@ -45,14 +45,14 @@ Research and Development in AI and Automation
   - Runtime monitoring every 5 seconds
   - Smart detection (doesn't block antivirus scanners)
 
-### ⚡ Performance
+### Performance
 
 - **512-Iteration Hashing** with early ρ equilibrium exit (40% speedup)
 - **Batched ρ Chains** per 1KB chunk (70% faster uploads)
 - **Combined Optimization**: 1MB file encryption reduced from 150ms → 40ms
 - **Instant Search**: 50+ password entries with zero lag
 
-### 💾 Storage
+### Storage
 
 - **LocalVaultJSON**: Pure JSON storage with PHI-Block encryption
 - **No SQL**: Removed sql.js dependency—lightweight and fast
@@ -60,7 +60,7 @@ Research and Development in AI and Automation
 - **File Attachments**: Encrypt documents, images, or any file type
 - **Auto-Save**: Changes persist immediately
 
-### 🖥️ User Experience
+### User Experience
 
 - **Dark Theme**: Modern UI with golden ratio proportions
 - **Password Generator**: Configurable strength with special characters
@@ -104,14 +104,14 @@ Download the latest release from `dist/` folder:
 ### First-Time Setup
 
 ```
-📁 Vault Location: %APPDATA%\phi-forge\vaults\
-🔐 Default Timeout: 5 minutes
-💾 Auto-Save: Enabled
+ Vault Location: %APPDATA%\phi-forge\vaults\
+ Default Timeout: 5 minutes
+ Auto-Save: Enabled
 ```
 
 ---
 
-## 🏗️ Building from Source
+## Building from Source
 
 ### Prerequisites
 
@@ -166,11 +166,11 @@ Located in `package.json` under `"build"`:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 phi-vault-electron/
-├── src/                           # 💻 Source code
+├── src/                           # Source code
 │   ├── electron.js                # Main process entry point
 │   ├── app.js                     # UI logic
 │   ├── local_vault_json.js        # JSON vault storage
@@ -183,25 +183,25 @@ phi-vault-electron/
 │   ├── preload.js                 # Renderer process bridge
 │   └── index.html / styles.css    # UI
 │
-├── builds/                        # 🔨 Build scripts
+├── builds/                        # Build scripts
 │   ├── build-production.bat       # Production build wrapper
 │   └── run-dev.bat               # Development launcher
 │
-├── scripts/                       # ⚙️ Automation
+├── scripts/                       # Automation
 │   ├── encrypt-asar-files.js      # Encrypts crypto modules
 │   ├── obfuscate.js              # Code obfuscation
 │   └── security-validation.js     # Build-time security checks
 │
-├── docs/                          # � Documentation
+├── docs/                          # Documentation
 │   ├── PHI-VAULT-ARCHITECTURE.md  # System design
 │   ├── SECURITY_HARDENING_2025.md # Security implementation
 │   ├── QUICK_REFERENCE.md         # API reference
 │   └── RELEASE_NOTES_v2.1.0.md   # Version history
 │
-├── tests/                         # 🧪 Test suite
+├── tests/                         # Test suite
 │   └── test_encryption_flow.js    # E2E encryption tests
 │
-├── dist/                          # 📦 Build outputs (generated)
+├── dist/                          # Build outputs (generated)
 │   ├── PHI-Forge-2.0.0-Portable.exe
 │   └── PHI-Forge-2.0.0-Setup.exe
 │
@@ -210,7 +210,7 @@ phi-vault-electron/
 
 ---
 
-## � Technical Details
+## Technical Details
 
 ### Cryptographic Primitives
 
@@ -254,7 +254,7 @@ phi-vault-electron/
 
 ---
 
-## � Documentation
+## Documentation
 
 ### User Guides
 - **[Quick Start Guide](docs/QUICK_REFERENCE.md)** - Basic usage
@@ -272,9 +272,9 @@ phi-vault-electron/
 
 ---
 
-## 🛡️ Security Disclosure
+## Security Disclosure
 
-If you discover a security vulnerability, please email **security@atlas-automations.com** with:
+If you discover a security vulnerability, please email **bmwyen@gmail.com** with:
 - Description of the vulnerability
 - Steps to reproduce
 - Potential impact assessment
@@ -284,18 +284,18 @@ If you discover a security vulnerability, please email **security@atlas-automati
 
 ---
 
-## 📝 Changelog
+## Changelog
 
 ### v2.0.0 (2025-11-09) - **Current Release**
 
 **Major Changes:**
-- 🎉 Production release with full security hardening
-- ⚡ 70% faster file uploads (batched ρ chains)
-- ⚡ 40% faster hashing (early ρ exit @ 512 iterations)
-- 🗄️ Migrated from sql.js to LocalVaultJSON (pure JSON storage)
-- 🛡️ Enhanced anti-debug protection (smart scanner detection)
-- 🔒 NODE_ENV=production support (bypasses dev checks)
-- 🔧 Optimized build configuration (84MB packages)
+-  Production release with full security hardening
+-  70% faster file uploads (batched ρ chains)
+-  40% faster hashing (early ρ exit @ 512 iterations)
+-  Migrated from sql.js to LocalVaultJSON (pure JSON storage)
+-  Enhanced anti-debug protection (smart scanner detection)
+-  NODE_ENV=production support (bypasses dev checks)
+-  Optimized build configuration (84MB packages)
 
 **Performance:**
 - 1MB file encryption: 150ms → 40ms
@@ -314,13 +314,13 @@ If you discover a security vulnerability, please email **security@atlas-automati
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a proprietary project. External contributions are not currently accepted, but feedback and bug reports are welcome via GitHub Issues.
 
 ---
 
-## 📄 License
+## License
 
 **Proprietary License** - Atlas Automations LLC
 
@@ -342,7 +342,7 @@ For licensing inquiries: **licensing@atlas-automations.com**
 
 ---
 
-## 🔗 Links
+## Links
 
 - **Repository**: https://github.com/byggbee/PHI-Vault
 - **Documentation**: [docs/](docs/)
