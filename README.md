@@ -70,7 +70,7 @@ Research and Development in AI and Automation
 
 ---
 
-## � Installation
+## Installation
 
 ### Production Binaries (Recommended)
 
@@ -93,7 +93,7 @@ Download the latest release from `dist/` folder:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Launch** `PHI-Forge-2.0.0-Portable.exe`
 2. **Create Vault**: Set a strong master password (≥12 characters)
