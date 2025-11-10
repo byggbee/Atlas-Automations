@@ -6,11 +6,6 @@ Research and Development in AI and Automation
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue)
-![Electron](https://img.shields.io/badge/electron-39.1.1-47848f)
-![License](https://img.shields.io/badge/license-Proprietary-red)
-![Security](https://img.shields.io/badge/security-quantum--resistant-green)
-
 **[Download](#-installation)** • **[Features](#-features)** • **[Documentation](#-documentation)** • **[Build](#-building-from-source)**
 
 </div>
